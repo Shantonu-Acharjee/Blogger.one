@@ -1,0 +1,219 @@
+html,body{
+    margin: 0%;
+    box-sizing: border-box;
+    height: 3000px;
+    
+}
+
+
+
+/*--------------------------
+Navbar Start 
+--------------------------*/
+.nav{
+    padding: 0 2rem;
+    transition: all 1s ease;
+}
+
+
+.nav .nav-brand a{
+    font-size: 1.6rem;
+    padding: 1rem 0;
+    display: block;
+    font-family: var(--Le-R);
+}
+
+
+.nav .nav-menu{
+    justify-content: space-between;
+}
+
+.nav .nav-items{
+    display: flex;
+    margin: 0;
+}
+
+.nav .nav-items .nav-link{
+    padding: 1.6rem 1rem;
+    font-size: 1.1rem;
+    position: relative;
+    font-family: var(--Ab-R);
+}
+
+.nav .nav-items .nav-link:hover{
+    background-color: var(--midnight);
+}
+
+.nav .nav-items .nav-link:hover a{
+    color: var(--white);
+}
+.nav .social{
+    padding: 1.4rem 0;
+}
+
+.nav .social a{
+    padding: 0 .2rem;
+    font-size: 1.5rem;
+    
+}
+
+nav .social a:hover{
+    color: var(--link-color);
+}
+
+
+
+
+.nav .toggle-collapse{
+    position: absolute;
+    top: 1rem;
+    right: 1.5rem;
+    cursor: pointer;
+
+    display: none;
+}
+
+.nav .toggle-icons i{
+    font-size: 2rem;
+}
+
+
+/*--------------------------
+Navbar End 
+--------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*--------------------------
+Main Site Section Start
+--------------------------*/
+main .site-title{
+    background: url('../D.T/assets/Background-image.png');
+    background-size: cover;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    background-position: bottom;
+
+}
+
+
+main .site-title .site-background{
+    padding-top: 10rem;
+    text-align: center;
+    color: var(--white);
+}
+
+main .site-title h1,h3{
+    margin: .3rem 0;
+}
+
+main .site-title .btn{
+    margin: 1.8rem 0;
+    background: var(--sky);
+}
+
+/*--------------------------
+Main Site Section End
+--------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*--------------------------
+Blog Carousel Start
+--------------------------*/
+
+.blog{
+    background: url("../D.T/assets/Abract01.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 100vh;
+    width: 100%;
+}
+
+.blog .blog-post{
+    padding-top: 1rem;
+}
+
+.blog .blog-post .blog-content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 80%;
+    margin: 3rem 2rem;
+    box-shadow: 0 15px 20px rgba(0,0,0,0.2);
+}
+
+
+
+main .blog-content .blog-title{
+    padding: 2rem 0;
+}
+
+main .blog-content .btn-blog{
+    margin-top: 1rem;
+}
+
+main .blog-content .btn-blog:hover{
+    color: var(--midnight);
+}
+
+
+
+section .container .owl-nav .owl-nav-prev{
+    position: absolute;
+    top: 50%;
+    margin: 0 auto;
+    left: -2rem;
+    padding: 1rem;
+    background: var(--sky);
+    font-size: 1.5rem;
+}
+
+
+
+
+section .container .owl-nav .owl-nav-next{
+    position: absolute;
+    top: 50%;
+    margin: 0 auto;
+    right: -2rem;
+    padding: 1rem;
+    background: var(--sky);
+    font-size: 1.5rem;
+}
+/*--------------------------
+Blog Carousel End
+--------------------------*/

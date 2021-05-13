@@ -1,0 +1,90 @@
+@media only screen and (max-width: 800px) {
+
+
+/*--------------------------
+    Navbar Start 
+--------------------------*/
+    .nav-brand{
+        text-transform: uppercase;
+        
+    }
+
+    .nav .nav-menu{
+       flex-direction: column;
+       text-align: center;
+       
+    }
+
+    .nav-menu-item{
+        margin: 0 auto;
+    }
+
+    .nav-items{
+        flex-wrap: wrap;
+        text-align: center;
+        padding: 0;
+    }
+
+    .nav-link{
+        padding: 0 .5rem !important;
+    }
+    
+
+    nav .toggle-collapse{
+        display: initial !important;
+    }
+
+
+    .collapse{
+        background-color: var(--midnight);
+    }
+/*--------------------------
+Navbar End 
+--------------------------*/
+
+
+
+
+
+
+
+/*--------------------------
+Blog Carousel Start
+--------------------------*/
+main .blog-content .btn-blog{
+    padding: 0.5rem 1rem;
+}
+
+
+
+
+
+/*--------------------------
+Blog Carousel End
+--------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
+    
+}

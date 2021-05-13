@@ -1,0 +1,75 @@
+.container{
+    margin: 0 5vw;
+    position: relative;
+}
+
+
+
+a{
+    text-decoration: none;
+    color: var(--text-gray);
+}
+
+.flex-row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+ul{
+    list-style-type: none;
+}
+
+h1{
+    font-family: var(--Le-R);
+    font-size: 2.5rem;
+}
+
+h2{
+    font-family: var(--Le-R);
+}
+
+h3{
+    font-family: var(--Ab-R);
+    font-size: 1.3rem;
+}
+
+.btn{
+    border: 1px solid transparent;
+    border-radius: 2rem;
+    padding: 1rem 3rem;
+    font-size: 1rem;
+    cursor: pointer;
+    font-family: var(--Li-R);
+    transition: all .5s ease;
+
+    background: var(--sky);
+}
+
+.btn:hover{
+    background: transparent !important;
+    border: 1px solid;
+    color: var(--white);
+}
+
+
+/*----------------------
+Color Start
+----------------------*/
+:root{
+    --text-gray : #3f4954;
+    --text-light: #686666da;
+    --white: #ffffff;
+    --midnight: rgb(18, 113, 236);
+    --sky: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+    --link-color: #a1c4cf;
+
+}
+
+
+
+
+
+/*----------------------
+Color End
+----------------------*/

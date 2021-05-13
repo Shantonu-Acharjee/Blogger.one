@@ -1,0 +1,41 @@
+@font-face {
+    font-family: Ab-R;
+    src: url(../D.T/fonts/Abel/Abel-Regular.ttf);
+}
+
+
+
+
+@font-face {
+    font-family: An-R;
+    src: url(../D.T/fonts/Anton/Anton-Regular.ttf);
+}
+
+
+
+@font-face {
+    font-family: Jo-R;
+    src: url(../D.T/fonts/Josefin_Sans/JosefinSans-Regular.ttf);
+}
+
+
+
+@font-face {
+    font-family: Le-R;
+    src: url(../D.T/fonts/Lexend_Deca/LexendDeca-Regular.ttf);
+}
+
+
+@font-face {
+    font-family: Li-R;
+    src: url(../D.T/fonts/Livvic/Livvic-Regular.ttf);
+}
+
+:root{
+    --Ab-R : "Ab-R", cursive;
+    --An-R : 'An-R', cursive;
+    --Jo-R : 'Jo-R', cursive;
+    --Le-R : 'Le-R', cursive;
+    --Li-R : 'Li-r', cursive;
+    
+}
